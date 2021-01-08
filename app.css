@@ -12,12 +12,14 @@
     box-sizing: border-box;
 }
 
+
 body {
+
     font-family: "Roboto", sans-serif;
     color: black;
     margin: 0;
     background: cover;
-    background-image: url("Palm.jpg");
+    background-image: url("screenshots/palm.jpg");
     background-repeat: repeat;
     background-size: cover;
     background-color: black;
