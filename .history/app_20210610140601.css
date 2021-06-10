@@ -79,15 +79,15 @@ fieldset {
 }
 
 legend {
-    font-weight: 550;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .question-form .question {
     margin-bottom: 20px;
     padding: 0 2%;
     font-size: 20px;
-    /* font-weight: 400px; */
+    font-weight: 600px;
 }
 
 .options ul {

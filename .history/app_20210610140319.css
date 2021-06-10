@@ -39,14 +39,13 @@ header {
 
 h1 {
     text-align: center;
-    font-size: 30px;
 }
 
 .question-and-score {
     border: 2px solid white;
     border-radius: 8px;
     background: rgba(11, 21, 6, 0.8);
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600px;
     color: white;
     text-align: center;
@@ -79,15 +78,15 @@ fieldset {
 }
 
 legend {
-    font-weight: 550;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .question-form .question {
     margin-bottom: 20px;
     padding: 0 2%;
     font-size: 20px;
-    /* font-weight: 400px; */
+    font-weight: 600px;
 }
 
 .options ul {

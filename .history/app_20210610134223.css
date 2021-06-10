@@ -12,82 +12,73 @@
     box-sizing: border-box;
 }
 
-p {
-    font-size: 20px;
-}
-
 
 body {
+
     font-family: "Roboto", sans-serif;
-    color: white;
+    color: black;
     margin: 0;
     background: cover;
     background-image: url("screenshots/leaf.jpg");
     background-repeat: repeat;
     background-size: cover;
-    background-color: white;
+    background-color: black;
 }
 
 header {
-    border: 2px solid white;
-    border-radius: 8px;
-    background: rgba(11, 21, 6, 0.8);
-    padding: 10px 0 10px 0;
+    border: 2px solid black;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 40px 0 0 0;
     color: white;
-    text-transform: uppercase;
 }
 
 h1 {
     text-align: center;
-    font-size: 30px;
 }
 
 .question-and-score {
-    border: 2px solid white;
-    border-radius: 8px;
-    background: rgba(11, 21, 6, 0.8);
-    font-size: 25px;
+    border: 2px solid black;
+    background: rgba(255, 255, 255, 0.15);
+    font-size: 30px;
     font-weight: 600px;
     color: white;
     text-align: center;
     list-style: none;
-    padding: 10px 0 10px 0;
 }
 
 button{
-    background: rgba(11, 21, 6, 0.8);
     margin-top: 10px;
     height: auto;
     font-size: 18px;
     font-weight: 500;
     text-align: center;
-    color: white;
+    color: black;
     cursor: pointer;
     margin-bottom: 0;
-    border-radius: 8px;
+    /* border-radius: 3px; */
     padding: 10px 20px;
 }
 
 .start-screen,
 fieldset {
-    border: 2px solid white;
+    border: 2px solid black;
     width: 80%;
     padding: 40px;
     margin: 55px auto 0 auto;
-    background: rgba(11, 21, 6, 0.8);
+    background: rgba(255, 255, 255, 0.15);
     border-radius: 10px;
 }
 
 legend {
-    font-weight: 550;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .question-form .question {
     margin-bottom: 20px;
     padding: 0 2%;
     font-size: 20px;
-    /* font-weight: 400px; */
+    font-weight: 600px;
 }
 
 .options ul {
@@ -106,30 +97,27 @@ label {
 }
 
 .right-answer {
-    background: rgb(11, 21, 6, .5);
+    background: ivory;
     padding: 10px 20px;
     margin: 5px 20px;
-    border: 2px solid rgb(97, 164, 23);
+    border: 2px solid greenyellow;
 }
 
 .wrong-answer {
-    background: rgb(11, 21, 6, .5);
+    background: ivory;
     padding: 10px;
     margin: 5px 20px;
     border: 2px solid #fe0000;
-    border-radius: 8px;
 }
 
 .question-form button {
-    background: rgb(11, 21, 6, .5);
-    border: 2px solid white;
+    border: 2px solid black;
     float: right;
-    border-radius: 6px;
 }
 
 button:hover:enabled,
 button:focus:enabled {
-    background-color: rgb(11, 21, 6, .5);
+    background-color: rgb(165, 241, 165);
     -webkit-transition: background 0.1s;
     -moz-transition: background 0.1s;
     -o-transition: background 0.1s;
@@ -137,7 +125,7 @@ button:focus:enabled {
 }
 
 button:disabled {
-    opacity: 0.9;
+    opacity: 0.5;
 }
 
 #next-question-btn {

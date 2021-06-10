@@ -12,12 +12,9 @@
     box-sizing: border-box;
 }
 
-p {
-    font-size: 20px;
-}
-
 
 body {
+
     font-family: "Roboto", sans-serif;
     color: white;
     margin: 0;
@@ -30,32 +27,26 @@ body {
 
 header {
     border: 2px solid white;
-    border-radius: 8px;
-    background: rgba(11, 21, 6, 0.8);
-    padding: 10px 0 10px 0;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 40px 0 0 0;
     color: white;
-    text-transform: uppercase;
 }
 
 h1 {
     text-align: center;
-    font-size: 30px;
 }
 
 .question-and-score {
     border: 2px solid white;
-    border-radius: 8px;
-    background: rgba(11, 21, 6, 0.8);
-    font-size: 25px;
+    background: rgba(255, 255, 255, 0.15);
+    font-size: 30px;
     font-weight: 600px;
     color: white;
     text-align: center;
     list-style: none;
-    padding: 10px 0 10px 0;
 }
 
 button{
-    background: rgba(11, 21, 6, 0.8);
     margin-top: 10px;
     height: auto;
     font-size: 18px;
@@ -64,7 +55,7 @@ button{
     color: white;
     cursor: pointer;
     margin-bottom: 0;
-    border-radius: 8px;
+    /* border-radius: 3px; */
     padding: 10px 20px;
 }
 
@@ -74,20 +65,20 @@ fieldset {
     width: 80%;
     padding: 40px;
     margin: 55px auto 0 auto;
-    background: rgba(11, 21, 6, 0.8);
+    background: rgba(255, 255, 255, 0.15);
     border-radius: 10px;
 }
 
 legend {
-    font-weight: 550;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .question-form .question {
     margin-bottom: 20px;
     padding: 0 2%;
     font-size: 20px;
-    /* font-weight: 400px; */
+    font-weight: 600px;
 }
 
 .options ul {
@@ -117,14 +108,12 @@ label {
     padding: 10px;
     margin: 5px 20px;
     border: 2px solid #fe0000;
-    border-radius: 8px;
 }
 
 .question-form button {
-    background: rgb(11, 21, 6, .5);
+    background: rgb(11, 21, 6, .2);
     border: 2px solid white;
     float: right;
-    border-radius: 6px;
 }
 
 button:hover:enabled,
